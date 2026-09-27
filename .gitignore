@@ -1,9 +1,23 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-.ipynb_checkpoints/
-
-~$*.docx
-
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
